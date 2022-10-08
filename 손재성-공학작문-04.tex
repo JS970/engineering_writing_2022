@@ -1,0 +1,52 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[hangul]{kotex}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\title{BCI의 최근 연구동향 및 시사점}
+\author{손재성\footnote{son73097@pusan.ac.kr}}
+\date{2022.10.08}
+\maketitle
+
+\section{서론}
+수 년 전부터 메타버스, 증강현실 등 새로운 IT 트랜드를 주도하는 기술이 각광받기 시작했다. 이러한 기술들은 기존 IT기술을 발판으로, 새로운 인터페이스 및 플랫폼을 구축하여 4차 산업혁명의 핵심 기술로 조명되었다. 메타버스, 증강현실, 디지털트윈 등의 기술만큼 조명받지는 못했지만, BCI기술 역시 매우 혁신적인 기술 중 하나로 평가받는다.
+
+ BCI란 Brain Computer Interface로, 뇌파 자극을 인식하는 장치를 통해 뇌파를 받아들이고, 신호화 과정을 통해 뇌파를 분석하여, 입출력 장치에 명령을 내리는 구조를 가진다. 헤드셋 형태의 가볍고 착용이 간편한 기기(비침습형), 직접 뇌에 전극을 삽입하는 방식(침습형) 등의 방식을 통해 뇌파를 인식하며, 특정 뇌파를 유도하여 기기를 조작하는 방식(뇌파유도방식), 사용자의 의도를 그대로 해석하여 기기에 전달하는 방식(뇌파인식방식)으로 정보를 해석하고 기기를 조작한다. 요약하자면, 인간의 두뇌와 컴퓨터를 직접 연결하여 컴퓨터 등 기기를 제어하는 기술 즉, "마인드 컨트롤"이다. 다소 떨어지는 현실성과, 직접 뇌에 전극을 삽입한다는 높은 진입 장벽으로 인해 비교적 상용화가 많이 진행되지 않았으나, 뉴럴링크, Neurosky, Emotive등의 기업들과 미 육군 연구소, NASA등의 연구기관, 듀크대학교 니콜렐리스 박사, 하버드 대학교 유승식 교수를 비롯한 관련 학계 등 BCI라는 혁신적인 기술에 대해 많은 사람들이 연구에 매진하고 있다.\footnote{뇌-컴퓨터 인터페이스(BCI)기술 및 개발 동향, 전자통신동향분석 26-5 2011년 10월, ETRI}\footnote{Translational Neuroscience • 5(1) • 2014 • 99-110, BRAIN-MACHINE-INTERFACE: AN OVERVIEW}
+
+  본 고에서는 BCI기술의 과거 기술 개발 동향과, 4차 산업혁명이 시작된 현재의 기술 개발 동향을 비교한다. 또한, 현재 기술 개발을 주도하는 기업 및 연구소의 연구 성과 및 상용 제품들에 대해 분석한다. 마지막으로, 현재 최전선 BCI기술의 시사점 및 대응 방안에 대해 고찰한다.
+
+\section{관련 연구}
+\subsection{기업}
+\begin{itemize}
+    \item Neuralink
+    
+    뉴럴링크 코퍼레이션(Neuralink Corporation)은 일론 머스크 등이 2016년 설립한 미국의 뉴로테크놀로지 기업이다. 침습형 뇌-컴퓨터 인터페이스(BMI) 모델을 개발한다. 본사는 샌프란시스코에 있으며, 현재 사람을 대상으로 한 침습형 BCI를 실험 중에 있다.\footnote{https://url.kr/uj1isd, 위키피디아, valid until 08.10.2022}
+    \item Neurosky
+
+    2004년 미국 실리콘벨리에서 창업한 기업이다. 자동차, 건강, 교육, 의료 목적의 상용 제품 연구를 한다. 2011년 비침습형 헤드셋 형태의 상용 제품을 출시한 바 있다.\footnote{https://en.wikipedia.org/wiki/NeuroSky, valid until 08.10.2022}
+    \item Emotive
+    
+    2011년 창업한 호주의 BCI 기업이다. 비침습형 헤드셋 형태의 상용 제품의 연구를 진행중이다.\footnote{https://www.emotiv.com/brain-controlled-technology/, valid until 08.10.2022}
+\end{itemize}
+
+\subsection{연구기관}
+\begin{itemize}
+    \item 미 육군 연구소(Army Research Laboratory)
+
+    미 육군 연구소에서는 병사가 착용한 안경에 시선 추적 센서를 통합하여 뇌에서 전기 자극을 받아 놀라움, 불안 등 유의미한 반응을 보일 때 즉각 파악할 수 있게 하는 AI지원 알고리즘을 개발중에 있다. \footnote{https://url.kr/bnifur, AI타임즈, valid until 08.10.2022}
+    \item 미 항공 우주국(NASA)
+
+    NASA에서는 Alan Pope, Chad Stephens등의 연구자들이 BMI에 대한 연구를 진행한 바 있다. Alan Pope는 인간의 오류에 대한 내적, 외적 이유를 조사하는 인간 오류 관리 프로그램을 개발하는데 기여했다. Chad Stephens는 인간-기계 통합 연구를 신경과학 및 정신생리학적 측면에서 진행했으며, NASA의 승무원 시스템 및 항공 운영 지부의 연구원들과 함께 연구중에 있다.\footnote{https://url.kr/bnifur, NASA, valid until 08.10.2022}
+\end{itemize}
+
+\subsection{학교}
+\begin{itemize}
+    \item Duke Univ. Prof. Miguel Angelo L. Nicolelis
+
+    듀크 대학교 니콜렐리스 미구엘 교수 연구실에서는 인간 환자 및 비인간 영장류에 대한 신경 집단 코딩, BMI및 신경운동학에 관한 연구를 진행중이다.\footnote{https://www.nicolelislab.net/, valid until 08.10.2022}
+    \item Harvard Univ. Prof. Seung-Schik Yoo
+    하버드 대학교 유승식 교수 연구실에서는 우울증 등 정신/뇌 질환 환자를 대상으로 건강한 사람의 뇌 신호 전달을 통한 치료 연구를 진행중에 있다.\footnote{https://projects.iq.harvard.edu/ntel, valid until 08.10.2022}
+\end{itemize}
+\end{document}
